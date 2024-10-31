@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #e9e512;
+} 
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #5a3a7e;
+}
+</style>
+</head>
+<body>
+
+<h2>position: absolute;</h2>
+
+<p>Elemen dengan position: absolute; diposisikan relatif terhadap posisi leluhur terdekat (bukan diposisikan relatif terhadap area pandang, seperti diperbaiki):</p>
+
+<div class="relative">Elemen div ini memiliki position: relative;
+  <div class="absolute">Elemen div ini memiliki position: absolute;</div>
+</div>
+
+</body>
+</html>
+
+
