@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <title>Challenge 1 - CSS</title>
+    <style>
+        table, th, td{
+            border: 1px solid;
+        }
+        tr{
+            background-color: cyan;
+        }
+         th{
+            color: chocolate;
+         }
+        .icon{
+            width: 50px;
+            height: auto;
+        }
+        tr:nth-child(odd) td:nth-child(2){
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            text-align: right;
+    }
+    td:nth-child(3){
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+<h1 style="color: black;">Challenge 1 - CSS</h1>
+<table border="1">
+    <tr>
+        <th>Materi</th>
+        <th>Sub Materi</th>
+        <th>Icon</th>
+       
+    </tr>
+    <tbody>
+        <tr>
+            <td>Materi 1</td>
+            <td>HTML</td>
+            <td><img src="https://course-net.com/blog/wp-content/uploads/2022/11/html-1.png" alt="html icon"
+            class="icon"></td>
+        </tr>
+
+        <tr>
+            <td>Materi 2</td>
+            <td>CSS</td>
+            <td><img src="https://www.webhozz.com/blog/wp-content/uploads/2017/09/gambar-CSS.jpg" alt="css icon"
+            class="icon"></td>
+        <tr>
+                <td>Materi 3</td>
+                <td>JavaScript</td>
+                <td><img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_1280.png" alt="js icon"
+               class="icon"></td>
+              
+        </tr>
+    </tbody>
+</table>
+</body>
+
+</html>
